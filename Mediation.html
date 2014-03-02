@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mediation</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font-awesome font -->
+    <link rel="stylesheet" href="font/font-awesome.css" type="text/css" media="screen">
+    <!-- fontello font -->
+        <script src="js/jquery.js"></script>
+        <script src="js/mustache.js" ></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/jquery-migrate-1.1.1.js"></script>
+        <script src="js/superfish.js"></script>
+        <script src="js/jquery.mobilemenu.js"></script>
+         
+        <script src="js/jquery.equalheights.js"></script>
+         	
+    <!--[if lt IE 8]>
+        <div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
+    <![endif]-->
+  <!--[if lt IE 9]>
+     
+    <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+    <script src="assets/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <div>
+        <!--==============================Top Navigation=================================-->
+        <div id="displayTopNavTemp"></div>
+        <div id="topNavTemp" style="display: none;"></div>
+        <!--=============================================================================-->
+
+      <!--==============================content=================================-->
+      <div id="content">
+        <div class="container">
+            <div class="row">
+                <div class="span3">
+                    <!--==============================Side Nav=================================-->
+                    <div id="displaySideNavTemp">
+                        <div id="sideNavTemp" style="display: none;"></div>
+                    </div>
+                    <!--=============================================================================-->
+                </div>
+              <div class="span8 ">
+                <h3>Mediation and Alternative Dispute Resolution </h3>
+                  <p>Mediation is a confidential meeting or series of meetings, where an independent, neutral third party (known as the Mediator) facilitates discussion between people in a dispute with the aim to assist those people to negotiate and reach agreement.</p>
+
+                  <p>The Mediator acts as a catalyst for the process, utilising their skills and experience to help people reach agreement by identifying issues, exploring possible bases for agreement and weighing the consequences of not settling.</p>
+
+                  <p>It is important to understand that the Mediator cannot impose their own decision upon the participants to the mediation, with the mediators role being one of independence and impartiality.</p>
+
+                  <p>Agreements reached in mediation are not legally binding until the agreement is then recorded in either a Consent Order, Financial Agreement or other binding legal document.</p>
+
+                  <p>In many cases, the presents of one of our lawyers with you in mediation can be useful to either assist you and the other party to understand the strengths and weakness of party to the mediations case as well as being able to draft and record any agreement reached during the mediation.</p>
+
+                  <p>At Powe &amp White Lawyers, our lawyers are highly experienced in attending mediation with clients and resolving matters.</p>
+
+                  <p>Our lawyers can also assist clients both prior to mediation in preparation and also after mediation in advising clients on agreements reached and where appropriate, drafting or implementing the agreement.</p>
+
+                  <p>Mediation has been and continues to be a highly successful process in resolving matters privately.</p>
+
+                  <p>However, in some cases where the avenue of private negotiation and mediation are exhausted, Court proceedings may be necessary in order to resolve the issue in dispute.</p>
+
+                  <p>Please contact us for more information on how mediation can be used as a conflict resolution technique for your situation.</p>
+                  <p>Going to Court</p>
+
+                  <p>At Powe &amp White Lawyers, we understand the impact that court proceedings can have on clients, both emotionally and financially and our lawyers always encourage settlement of matters through private negotiations or mediation or alternative dispute resolution.</p>
+
+                  <p>However at Powe & White Lawyers, we recognise that it is not always possible to resolve matters privately and in some cases or urgent situations, it may be necessary to involve the court.</p>
+
+                  <p>We believe that clients should have the benefit of a lawyer who understands the impact that court proceedings can have on clients.</p>
+
+                  <p>At Powe &amp White Lawyers, we seek to ensure that all clients understand the court process in simple terms.</p>
+
+                  <p>Our lawyers are excellent advocates who represent your interests in a strong and effective manner and attempt to minimise the stress and emotion of having to go to Court on your own.</p>
+
+                  <p>Should you wish to make an appointment with one of our experienced lawyers, please contact us.</p>
+              </div>
+           </div>
+        </div>
+      </div>
+    </div>
+    <!--==============================footer=================================-->
+    <footer id="footerNavTemplate">
+        <div class="container">
+            <div class="row-fluid">
+                <div id="displayFooterNavTemp"></div>
+                <div id="footerNavTemp" style="display: none;"></div>
+            </div>
+        </div>
+    </footer>
+    <!--=============================================================================-->
+
+    <script src="js/bootstrap.js"></script>
+    <script>
+        $( document ).ready(function() {
+            $("#topNavTemp").load("Header.html #topNav",function(){
+                var template = document.getElementById('topNav').innerHTML;
+                var output = Mustache.render(template);
+                $("#displayTopNavTemp").html(output);
+            });
+
+            $("#footerNavTemp").load("Footer.html #footerNav",function(){
+                var template = document.getElementById('footerNav').innerHTML;
+                var output = Mustache.render(template);
+                $("#displayFooterNavTemp").html(output);
+            });
+
+            $("#sideNavTemp").load("SideNavigation.html #sideNav",function(){
+                var template = document.getElementById('sideNav').innerHTML;
+                var output = Mustache.render(template);
+                $("#displaySideNavTemp").html(output);
+                $( "#mediationNav" ).addClass( "activeSideNav");
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Our lawyers</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font-awesome font -->
+    <link rel="stylesheet" href="font/font-awesome.css" type="text/css" media="screen">
+    <!-- fontello font -->
+        <script src="js/jquery.js"></script>
+        <script src="js/mustache.js" ></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/jquery-migrate-1.1.1.js"></script>
+        <script src="js/superfish.js"></script>
+        <script src="js/jquery.mobilemenu.js"></script>
+         
+        <script src="js/jquery.equalheights.js"></script>
+         	 
+    <!--[if lt IE 8]>
+        <div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
+    <![endif]-->
+  <!--[if lt IE 9]>
+     
+    <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+    <script src="assets/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<div>
+    <!--==============================Top Navigation=================================-->
+    <div id="displayTopNavTemp"></div>
+    <div id="topNavTemp" style="display: none;"></div>
+    <!--=============================================================================-->
+      
+  <!--==============================content=================================-->
+  <div id="content">
+    <div class="container">
+    	<div class="row">
+            <div class="span12">
+            	<h3 class="bot-0">our lawyers</h3>
+                <ul class="row list-lawyers">
+                	<li class="span12">
+                    	<div class="">
+                            <img src="img/page3-img1.jpg" alt="">
+                            <div class="wrap">
+                                <p class="lead">Rod Powe <strong>(Solicitor Director)</strong></p>
+                                New York<br>
+                                T: +1 800 559 6580<br>
+                                F: +1 800 889 9898<br>
+                                <a href="#">www.demolink.org</a><br>
+                                <a href="#">@skypename</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="row list-lawyers">
+                    <li class="span12 ">
+                    	<div class="">
+                            <img src="img/page3-img2.jpg" alt="">
+                            <div class="wrap">
+                                <p class="lead">Christopher White</p>
+                                <strong>(Solicitor Director)</strong>
+                                New York<br>
+                                T: +1 800 559 6580<br>
+                                F: +1 800 889 9898<br>
+                                <a href="#">www.demolink.org</a><br>
+                                <a href="#">@skypename</a>
+                                As a family lawyer Christopher White is dedicated to helping his clients overcome the social, legal and financial difficulties they face after their relationship has broken down. He works closely with clients to help reduce the stress and anxiety that they often face during a very difficult time in their lives.
+
+                                Through various means of dispute resolution, Christopher tries where possible to resolve matters without resorting to long, drawn-out legal proceedings. “I constantly remind both myself and my clients to redirect the focus away from minor issues the dispute at hand, and focus rather on the key issues and the long-term goals of all of the relevant parties. This often results in the best outcome for everyone concerned.”
+
+                                Christopher has acquired a range of experience working with clients from diverse backgrounds and he always seeks to ensure that clients are not burdened by complex legal concepts, instead explaining such concepts in simple and easily understood terms.
+
+                                Christopher is an approachable and reliable lawyer who handles matters sensitively and with attention to detail.
+
+                                Expertise, Qualifications and Memberships
+                                <ul>
+                                    <li>2013 to present solicitor director of Powe & White Family Lawyers</li>
+                                    <li>2010 – 2013 solicitor in private practice in family law</li>
+                                    <li>2006 – 2010 public service officer within Commonwealth Government</li>
+                                    <li>2002 – 2006 manager in private business</li>
+                                    <li>2011 Admitted to the High Court of Australia</li>
+                                    <li>2011 Admitted to the Supreme Court of New South Wales</li>
+                                    <li>2011 Diploma of Legal Practice, College of Law Sydney</li>
+                                    <li>2010 Bachelor of Laws, University of Newcastle</li>
+                                    <li>2008 Bachelor of Business, University of Newcastle</li>
+                                    <li>Member of the Law Society of New South Wales</li>
+                                    <li>Member of the Law Council of Australia Family Law Section</li>
+                                    <li>Committee Member of the Hunter Valley Family Law Practitioners Association</li>
+                                    <li>Legal Aid Panel Practitioner for Family Law</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                   </ul>
+            </div>
+        </div>   
+    </div>   
+  </div> 
+</div> 
+    <!--==============================footer=================================-->
+    <footer id="footerNavTemplate">
+        <div class="container">
+            <div class="row-fluid">
+                <div id="displayFooterNavTemp"></div>
+                <div id="footerNavTemp" style="display: none;"></div>
+            </div>
+        </div>
+    </footer>
+    <!--=============================================================================-->
+    <script src="js/bootstrap.js"></script>
+    <script>
+        $( document ).ready(function() {
+            $("#topNavTemp").load("Header.html #topNav",function(){
+                var template = document.getElementById('topNav').innerHTML;
+                var output = Mustache.render(template);
+                $("#displayTopNavTemp").html(output);
+            });
+
+            $("#footerNavTemp").load("Footer.html #footerNav",function(){
+                var template = document.getElementById('footerNav').innerHTML;
+                var output = Mustache.render(template);
+                $("#displayFooterNavTemp").html(output);
+            });
+        });
+    </script>
+</body>
+</html>
