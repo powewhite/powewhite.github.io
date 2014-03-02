@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Divorce</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font-awesome font -->
+    <link rel="stylesheet" href="font/font-awesome.css" type="text/css" media="screen">
+    <!-- fontello font -->
+        <script src="js/jquery.js"></script>
+        <script src="js/mustache.js" ></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/jquery-migrate-1.1.1.js"></script>
+        <script src="js/superfish.js"></script>
+        <script src="js/jquery.mobilemenu.js"></script>
+         
+        <script src="js/jquery.equalheights.js"></script>
+         	
+    <!--[if lt IE 8]>
+        <div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
+    <![endif]-->
+  <!--[if lt IE 9]>
+     
+    <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+    <script src="assets/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<div>
+    <!--==============================Top Navigation=================================-->
+    <div id="displayTopNavTemp"></div>
+    <div id="topNavTemp" style="display: none;"></div>
+    <!--=============================================================================-->
+      
+  <!--==============================content=================================-->
+  <div id="content">
+    <div class="container">
+    	<div class="row">
+            <div class="span3">
+                <!--==============================Side Nav=================================-->
+                <div id="displaySideNavTemp">
+                    <div id="sideNavTemp" style="display: none;"></div>
+                </div>
+                <!--=============================================================================-->
+            </div>
+          <div class="span8 ">
+          	<h3>Divorce &amp Separation</h3>
+              <p>   Powe &amp White Family Lawyers can help you deal with information about a divorce. Our experienced lawyers can assist you to;</p>
+              <p>•	Find out if you are eligible to apply for a divorce</p>
+              <p>•	Help you to apply or defend a divorce application, including completing all of the paperwork</p>
+              <p>•	File your divorce in Court</p>
+              <p>•	Serve your divorce on your former spouse</p>
+              <p>•	Attend any divorce hearing if required</p>
+              <p>•	Advise you of your legal position in relation to any parenting matters</p>
+              <p>•	Advise you of your legal position in relation to any child support matters</p>
+              <p>•	Advise you of your legal position in relation to any property settlement matters</p>
+              <p>At Powe &amp White Family Lawyers we believe that clients better understand family law issues when they are kept aware of the legal processes they are involved in.</p>
+
+              <p>Our lawyers will keep you aware of the relevant legal processes or any new developments that may directly affect you in a sensitive and efficient manner.</p>
+
+              <h4>What is a Divorce?</h4>
+
+              <p>In Australia, it is important to remember that a divorce is a separate legal process from resolving parenting arrangements for children, or property settlement.  Divorce does not finalise these other issues and time limits do apply to the resolution of property settlements.</p>
+
+              <p>Divorce officially ends a marriage once it has broken down.</p>
+
+              <p>To have a divorce order granted, a married couple must have been separated for at least one year prior to the time an application for divorce is filed and must satisfy the court that the relationship has broken down permanently.</p>
+
+              <p>Where there are children of the marriage under the age of eighteen years, the court must also be satisfied that arrangements for their future care are satisfactory.</p>
+
+              <h4>Applying for a Divorce</h4>
+
+              <p>To apply for a divorce, you must fill out and lodge an application to the Federal Circuit Court of Australia. There is a filing fee that must be paid to the court.</p>
+
+              <p>You can talk to an experienced lawyer from Powe & White Family Lawyers who can help you prepare and file your divorce application and assist you with other matters such as property, parenting and child support.</p>
+
+              <p>Once a divorce application has been completed, it is sworn and filed with the Federal Circuit Court of Australia.</p>
+
+              <p>The application is then given a hearing date that is roughly 2 months from when the application is filed. At this hearing, the court will determine whether a couple has met the requirements for a divorce. Assuming the court grants the divorce, the divorce order will take effect after one month.</p>
+
+              <p>The whole divorce process generally takes 4 months.</p>
+
+              <p>For more information contact us make an appointment with one of our lawyers to discuss your situation.</p>
+
+          </div>
+       </div>   
+    </div>   
+  </div> 
+</div> 
+    <!--==============================footer=================================-->
+    <footer id="footerNavTemplate">
+        <div class="container">
+            <div class="row-fluid">
+                <div id="displayFooterNavTemp"></div>
+                <div id="footerNavTemp" style="display: none;"></div>
+            </div>
+        </div>
+    </footer>
+    <!--=============================================================================-->
+
+    <script src="js/bootstrap.js"></script>
+    <script>
+        $( document ).ready(function() {
+            $("#topNavTemp").load("Header.html #topNav",function(){
+                var template = document.getElementById('topNav').innerHTML;
+                var output = Mustache.render(template);
+                $("#displayTopNavTemp").html(output);
+            });
+
+            $("#footerNavTemp").load("Footer.html #footerNav",function(){
+                var template = document.getElementById('footerNav').innerHTML;
+                var output = Mustache.render(template);
+                $("#displayFooterNavTemp").html(output);
+            });
+
+            $("#sideNavTemp").load("SideNavigation.html #sideNav",function(){
+                var template = document.getElementById('sideNav').innerHTML;
+                var output = Mustache.render(template);
+                $("#displaySideNavTemp").html(output);
+                $( "#divorceNav" ).addClass( "activeSideNav");
+            });
+        });
+    </script>
+</body>
+</html>

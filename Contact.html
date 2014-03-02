@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contacts</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font-awesome font -->
+    <link rel="stylesheet" href="font/font-awesome.css" type="text/css" media="screen">
+    <!-- fontello font -->
+    <script src="js/jquery.js"></script>
+        <script src="js/mustache.js" ></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/jquery.mobilemenu.js"></script>
+
+    <script src="js/jquery.equalheights.js"></script>
+
+    <script src="js/forms.js"></script>
+    <!--[if lt IE 8]>
+    <div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+
+    <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+    <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div>
+        <!--==============================Top Navigation=================================-->
+        <div id="displayTopNavTemp"></div>
+        <div id="topNavTemp" style="display: none;"></div>
+        <!--=============================================================================-->
+
+        <!--==============================content=================================-->
+        <div id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="span4">
+                        <h3>Address</h3>
+                        <address class="address">
+                            <strong class="lead">Address 1:</strong>
+                            <p>9870 St Vincent Place, Glasgow, DC 45 Fr 45.</p>
+                            <strong class="lead">Telephone:</strong>
+                            <p>+1 800 559 6580<br>+1 800 603 6035</p>
+                            <strong class="lead">Address 2:</strong>
+                            9863 - 9867 Mill Road, Cambridge, MG09 99HT.
+                        </address>
+                    </div>
+                    <div class="span8">
+                        <h3>Contact form</h3>
+                        <form id="contact-form" class="contact-form">
+                            <div class="success"> Contact form submitted! <strong>We will be in touch soon.</strong> </div>
+                            <fieldset>
+                                <div class="coll-1">
+                                    <label class="name">
+                                        <input type="text" value="* Your full name here: "><br>
+                                        <span class="error">*This is not a valid name.</span> <span class="empty">*This field is required.</span> </label>
+                                </div>
+                                <div class="coll-2">
+                                    <label class="email">
+                                        <input type="email" value="* Enter your e-mail:"><br>
+                                        <span class="error">*This is not a valid email address.</span> <span class="empty">*This field is required.</span> </label>
+                                </div>
+                                <div class="coll-3">
+                                    <label class="phone notRequired">
+                                        <input type="tel" value="Your telephone here:"><br>
+                                        <span class="error">*This is not a valid phone number.</span> <span class="empty">*This field is required.</span> </label>
+                                </div>
+                                <div class="clear"></div>
+                                <div>
+                                    <label class="message">
+                                        <textarea>* Your comments and questions:</textarea><br>
+                                        <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span> </label>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="buttons-wrapper clearfix"><a class="btn" data-type="submit">Submit</a> <span class="required-field"><span>*</span>Required Fields</span></div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==============================footer=================================-->
+    <footer id="footerNavTemplate">
+        <div class="container">
+            <div class="row-fluid">
+                <div id="displayFooterNavTemp"></div>
+                <div id="footerNavTemp" style="display: none;"></div>
+            </div>
+        </div>
+    </footer>
+    <!--=============================================================================-->
+
+    <script src="js/bootstrap.js"></script>
+    <script>
+        $( document ).ready(function() {
+            $("#topNavTemp").load("Header.html #topNav",function(){
+                var template = document.getElementById('topNav').innerHTML;
+                var output = Mustache.render(template);
+                $("#displayTopNavTemp").html(output);
+            });
+
+            $("#footerNavTemp").load("Footer.html #footerNav",function(){
+                var template = document.getElementById('footerNav').innerHTML;
+                var output = Mustache.render(template);
+                $("#displayFooterNavTemp").html(output);
+            });
+        });
+    </script>
+</body>
+</html>

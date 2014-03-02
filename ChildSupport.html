@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Child Support</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font-awesome font -->
+    <link rel="stylesheet" href="font/font-awesome.css" type="text/css" media="screen">
+    <!-- fontello font -->
+        <script src="js/jquery.js"></script>
+        <script src="js/mustache.js" ></script>
+        <script src="js/mustache.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/jquery-migrate-1.1.1.js"></script>
+        <script src="js/superfish.js"></script>
+        <script src="js/jquery.mobilemenu.js"></script>
+         
+        <script src="js/jquery.equalheights.js"></script>
+         	
+    <!--[if lt IE 8]>
+        <div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
+    <![endif]-->
+  <!--[if lt IE 9]>
+     
+    <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+    <script src="assets/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <div>
+        <!--==============================Top Navigation=================================-->
+        <div id="displayTopNavTemp"></div>
+        <div id="topNavTemp" style="display: none;"></div>
+        <!--=============================================================================-->
+
+      <!--==============================content=================================-->
+      <div id="content">
+        <div class="container">
+            <div class="row">
+                <div class="span3">
+                    <!--==============================Side Nav=================================-->
+                    <div id="displaySideNavTemp">
+                        <div id="sideNavTemp" style="display: none;"></div>
+                    </div>
+                    <!--=============================================================================-->
+                </div>
+              <div class="span8 ">
+                <h3>Child Support</h3>
+
+                  <p>The majority of children of separated families in Australia are covered by the Child Support scheme.  Most commonly, the payment of child support for children in separated families is either agreed upon by each parent or otherwise assessed and monitored by the Child Support Agency rather than the Courts.</p>
+
+                  <p>The amount of child support payable is different in each case, is dependant upon the specific circumstances of the family and its income, and is based on the application of a statutory formula.</p>
+
+                  <p>The introduction of the Child Support scheme in 1989 was designed to simplify the process, many variations to the standard formula have been developed over the years since then to accommodate differing family circumstances.</p>
+
+                  <p>At Powe & White Family Lawyers, we have extensive experience in working with the now quite complex child support laws.</p>
+
+                  <p>We understand that the payment of money by one partner to the other is often a sensitive issue so we will assist you to understand the law and its effect on your situation. Our lawyers will work with you to give you options should you feel that any Administrative Assessment issued by the Child Support Agency does not produce a fair and/or viable outcome in your particular circumstances.</p>
+
+                  <p>At Powe & White Family Lawyers, we can also assist individuals in the preparation of private Child Support Agreements in more complex matters or where families desire to keep the arrangements private.</p>
+
+                  <p>Binding Child Support Agreements are becoming an increasingly more common solution to the payment of child support.</p>
+
+                  <p>Binding Child Support Agreements allow each party input as to how much and how frequently child support is paid. This flexibility allows parties to recognise their financial circumstances to better enable a just and equitable account of child support.</p>
+                  <p>To discuss your matter in more detail, please contact us to make an appointment.</p>
+              </div>
+           </div>
+        </div>
+      </div>
+    </div>
+    <!--==============================footer=================================-->
+    <footer id="footerNavTemplate">
+        <div class="container">
+            <div class="row-fluid">
+                <div id="displayFooterNavTemp"></div>
+                <div id="footerNavTemp" style="display: none;"></div>
+            </div>
+        </div>
+    </footer>
+    <!--=============================================================================-->
+
+    <script src="js/bootstrap.js"></script>
+    <script>
+        $( document ).ready(function() {
+            $("#topNavTemp").load("Header.html #topNav",function(){
+                var template = document.getElementById('topNav').innerHTML;
+                var output = Mustache.render(template);
+                $("#displayTopNavTemp").html(output);
+            });
+
+            $("#footerNavTemp").load("Footer.html #footerNav",function(){
+                var template = document.getElementById('footerNav').innerHTML;
+                var output = Mustache.render(template);
+                $("#displayFooterNavTemp").html(output);
+            });
+
+            $("#sideNavTemp").load("SideNavigation.html #sideNav",function(){
+                var template = document.getElementById('sideNav').innerHTML;
+                var output = Mustache.render(template);
+                $("#displaySideNavTemp").html(output);
+                $( "#childNav" ).addClass( "activeSideNav");
+            });
+        });
+    </script>
+</body>
+</html>
