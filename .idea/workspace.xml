@@ -22,63 +22,7 @@
     <favorites_list name="site" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="60" selection-start="3373" selection-end="3373" vertical-scroll-proportion="0.82287306" vertical-offset="600" max-vertical-offset="4046">
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1393938265688" expanded="false" signature="1112:1129" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Header.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="41" selection-start="1369" selection-end="1369" vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="663">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1483" column="6" selection-start="27559" selection-end="27559" vertical-scroll-proportion="-1.62" vertical-offset="25130" max-vertical-offset="27047">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fees.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fees.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="20" selection-start="3818" selection-end="3818" vertical-scroll-proportion="-25.615385" vertical-offset="473" max-vertical-offset="1938">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1393937248432" expanded="false" signature="1120:1137" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChildSupport.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ChildSupport.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="2059" selection-end="2474" vertical-scroll-proportion="-8.5" vertical-offset="578" max-vertical-offset="2023">
-              <folding>
-                <marker date="1393919229470" expanded="false" signature="1176:1193" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -88,30 +32,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Pre-NuptialAgreements.html" />
-        <option value="$PROJECT_DIR$/PowerOfAttorney.html" />
         <option value="$PROJECT_DIR$/Wills.html" />
         <option value="$PROJECT_DIR$/SideNavigation.html" />
         <option value="$PROJECT_DIR$/CourtProceedings.html" />
-        <option value="$PROJECT_DIR$/Divorce.html" />
         <option value="$PROJECT_DIR$/ParentingArrangements.html" />
         <option value="$PROJECT_DIR$/PropertySettlement.html" />
         <option value="$PROJECT_DIR$/ChildSupport.html" />
         <option value="$PROJECT_DIR$/PrivateNegotiation.html" />
         <option value="$PROJECT_DIR$/Mediation.html" />
         <option value="$PROJECT_DIR$/GoingToCourt.html" />
+        <option value="$PROJECT_DIR$/Footer.html" />
+        <option value="$PROJECT_DIR$/index-2.html" />
         <option value="$PROJECT_DIR$/Fees.html" />
-        <option value="$PROJECT_DIR$/Header.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/Divorce.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Header.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1672" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="916" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -228,14 +172,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1672" y="-8" width="1456" height="916" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3383199" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29166666" sideWeight="0.6704036" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17380808" sideWeight="0.6704036" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -262,27 +206,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pre-NuptialAgreements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="4857" selection-end="5751" vertical-scroll-proportion="-14.653846" vertical-offset="486" max-vertical-offset="1326">
-          <folding>
-            <element signature="tag#head#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PowerOfAttorney.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="26" selection-start="4865" selection-end="4865" vertical-scroll-proportion="-25.115385" vertical-offset="418" max-vertical-offset="1258">
-          <folding>
-            <element signature="tag#head#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Wills.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="96" column="26" selection-start="4708" selection-end="4708" vertical-scroll-proportion="0.0" vertical-offset="1632" max-vertical-offset="1819">
@@ -300,13 +223,6 @@
     <entry file="file://$PROJECT_DIR$/CourtProceedings.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="36" selection-start="2477" selection-end="2477" vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="1734">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Divorce.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="29" selection-start="3278" selection-end="3278" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="2346">
           <folding />
         </state>
       </provider>
@@ -355,43 +271,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="0" selection-start="2059" selection-end="2474" vertical-scroll-proportion="-8.5" vertical-offset="578" max-vertical-offset="2023">
           <folding>
-            <marker date="1393919229470" expanded="false" signature="1176:1193" placeholder="..." />
+            <marker date="1393919229470" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fees.html">
+    <entry file="file://$PROJECT_DIR$/Footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="20" selection-start="3818" selection-end="3818" vertical-scroll-proportion="-25.615385" vertical-offset="473" max-vertical-offset="1938">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1393937248432" expanded="false" signature="1120:1137" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="41" selection-start="1369" selection-end="1369" vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1483" column="6" selection-start="27559" selection-end="27559" vertical-scroll-proportion="-1.62" vertical-offset="25130" max-vertical-offset="27047">
+        <state line="36" column="109" selection-start="1673" selection-end="1673" vertical-scroll-proportion="-23.538462" vertical-offset="0" max-vertical-offset="782">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="60" selection-start="3373" selection-end="3373" vertical-scroll-proportion="0.82287306" vertical-offset="600" max-vertical-offset="4046">
+        <state line="145" column="57" selection-start="7134" selection-end="7134" vertical-scroll-proportion="-5.0384617" vertical-offset="2334" max-vertical-offset="4046">
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1393938265688" expanded="false" signature="1112:1129" placeholder="..." />
+            <marker date="1393941624639" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="77" selection-start="714" selection-end="714" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Divorce.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="53" selection-start="2058" selection-end="2058" vertical-scroll-proportion="0.21144278" vertical-offset="102" max-vertical-offset="1836">
+          <folding>
+            <element signature="tag#head#0;tag#html#0" expanded="false" />
+            <marker date="1393941445157" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.6977612" vertical-offset="289" max-vertical-offset="2363">
+          <folding>
+            <marker date="1393940439398" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="24" selection-start="717" selection-end="717" vertical-scroll-proportion="0.4173913" vertical-offset="361" max-vertical-offset="27064">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fees.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="33" selection-start="2522" selection-end="2522" vertical-scroll-proportion="0.6169154" vertical-offset="439" max-vertical-offset="2006">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1393941230775" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
