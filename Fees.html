@@ -44,6 +44,13 @@
       <div id="content">
         <div class="container">
             <div class="row">
+                <div class="span3">
+                    <!--==============================Side Nav=================================-->
+                    <div id="displaySideNavTemp">
+                        <div id="sideNavTemp" style="display: none;"></div>
+                    </div>
+                    <!--=============================================================================-->
+                </div>
               <div class="span8 ">
                 <h3>Our Fees </h3>
                   <p>At Powe & White Family Lawyers, we understand that the thought of legal fees coupled with a legal problem can be challenging.</p>
@@ -88,6 +95,13 @@
                 var template = document.getElementById('footerNav').innerHTML;
                 var output = Mustache.render(template);
                 $("#displayFooterNavTemp").html(output);
+            });
+
+            $("#sideNavTemp").load("SideNavigation.html #sideNav",function(){
+                var template = document.getElementById('sideNav').innerHTML;
+                var output = Mustache.render(template);
+                $("#displaySideNavTemp").html(output);
+                $( "#childNav" ).addClass( "activeSideNav");
             });
         });
     </script>
