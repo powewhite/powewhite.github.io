@@ -262,7 +262,7 @@ header {
 }
 .nav-bg {
 	border-bottom: #b34433 3px solid;
-	margin-top: 43px;
+
 	padding: 12px 0 10px 0;
 }
 .header-block {
@@ -1486,6 +1486,11 @@ body {
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 1em;
     line-height: 1;
+    background-color: #ffffff;
+}
+
+#footerNavTemplate{
+    background-color: #4f4c47;
 }
 
 .credits {
@@ -1583,4 +1588,8 @@ a.otherBtnColour{
     left:-6px;
     padding:18px 18px 18px 40px !important;
     width:174px;
+}
+
+.jPanelMenu-panel {
+    background-color: black;
 }
