@@ -1615,3 +1615,7 @@ a.ctaBtn {
 .hoverFade:hover{
     opacity: 0.8;
 }
+
+.topPadding40{
+    padding-top: 40px;
+}
